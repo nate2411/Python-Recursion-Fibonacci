@@ -9,6 +9,7 @@ def recur_fibo(n):
 terms = 20
 
 for i in range(terms):
+      #calling the function 
       print(recur_fibo(i), end=" ")
 
 
