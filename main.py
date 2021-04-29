@@ -8,12 +8,7 @@ def recur_fibo(n):
 
 terms = 20
 
-# check if the number of terms is valid
-if terms <= 0:
-   print("Plese enter a positive integer")
-else:
-
-   for i in range(terms):
+for i in range(terms):
       print(recur_fibo(i), end=" ")
 
 
